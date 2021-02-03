@@ -1,0 +1,103 @@
+header{
+  position:relative;
+  left:20px;
+}
+
+/*.beta-title{
+   background-image: url("https://jundroo.blob.core.windows.net/simplerockets/files/2020/12/20/kKw7bI/UserView-4.jpg")
+    
+}*/
+img {
+  float: left;
+  padding: 25px;
+  
+}
+span {
+  padding: 35px;
+  
+}
+span {
+  opacity: 0;
+  transform: translate(0, 20px);
+  transition: all 1s;
+}
+h5 {
+  width: 300px;
+}
+h3 {
+  font-size: 2rem;
+}
+span.visible {
+  opacity: 1;
+  transform: translate(0, 0);
+}
+.left {
+  text-align: left;
+}
+
+body,
+.link {
+  background: rgb(51, 51, 51);
+  color: white;
+}
+
+h2 {
+  position: relative;
+  font-size: 5rem;
+}
+#left{
+  text-align:left;
+  font-size:1.5rem;
+}
+#right{
+  text-align:right;
+  font-size:1.5rem;
+}
+.space {
+  text-align: center;
+}
+#first {
+  text-align:left;
+  font-size: 2.3rem;
+  color: rgb(153, 102, 0);
+}
+#specs {
+  font-size: 3.2rem;
+}
+#second {
+  font-size: 2.3rem;
+  color: rgb(153, 102, 0);
+  text-align: right;
+}
+#o {
+  text-align: right;
+}
+.svg {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+
+}
+html {
+  block-size: 100%;
+  inline-size: 75%;
+}
+
+body {
+  min-block-size: 100%;
+  min-inline-size: 100%;
+  margin: 0;
+  box-sizing: border-box;
+  display: grid;
+
+  font-family: system-ui;
+}
+
+@media (orientation: landscape) {
+  body {
+    grid-auto-flow: column;
+  }
+}
+#here{
+  color:white;
+}
