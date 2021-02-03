@@ -2,11 +2,12 @@ header{
   position:relative;
   left:20px;
 }
-
-/*.beta-title{
-   background-image: url("https://jundroo.blob.core.windows.net/simplerockets/files/2020/12/20/kKw7bI/UserView-4.jpg")
-    
-}*/
+.beta-title {
+  width: 100%;
+  height: 400px;
+  background: url('https://jundroo.blob.core.windows.net/simplerockets/files/2020/12/20/kKw7bI/UserView-4.jpg');
+  background-size: cover;
+}
 img {
   float: left;
   padding: 25px;
