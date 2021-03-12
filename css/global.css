@@ -1,6 +1,6 @@
 /*hey*/
 import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@600&display=swap');
-body{
+*{
   font-family: 'Fira Sans', sans-serif;
 }
 header{
